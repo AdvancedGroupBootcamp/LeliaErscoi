@@ -1,0 +1,491 @@
+https://github.com/LeliaE/git_lesson_new 
+
+
+1  sudo apt-get update; sudo apt-get install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+    2  curl https://pyenv.run | bash
+    3  # pyenv
+    4  export PATH="$HOME/.pyenv/bin:$PATH"
+    5  eval "$(pyenv init --path)"
+    6  eval "$(pyenv virtualenv-init -)"
+    7  nano ~/.bashrc
+    8  exec $SHELL
+    9  pyenv --version
+   10  pyenv global 2.7.7
+   11  pyenv install 2.7.7
+   12  c
+   13  pyenv virstualenvwrapper
+   14  nano~/.bashrc
+   15  nano ~/.bashrc
+   16  sudo apt install vim
+   17  sudo pip install virtualenv
+   18  history
+   19  pyenv install 2.7.7
+   20  sudo apt-get install python3-pip
+   21  --fix-missing
+   22  sudo pip3 install virtualenv
+   23  python --version
+   24  python3 --version
+   25  sudo pip3 install virtualenv
+   26  sudo pip install virtualenvwrapper
+   27  mkvirtualenv
+   28  git clone https://github.com/pyenv/pyenv-virtualenvwrapper.git "${HOME}/.pyenv/plugins/pyenv-virtualenvwrapper"
+   29  nano ~/. bashrc
+   30  nano ~/.bashrc
+   31  pyenv virtualenv
+   32  nano ~/.bashrc
+   33  exec $SHELL
+   34  echo $PATH
+   35  nano ~/.bashrc
+   36  pyenv virtualenv
+   37  pyenv which virtualenvwrapper.sh
+   38  pyenv virtualenv
+   39  nano ~/.bashrc
+   40  exec $SHELL
+   41  pyenv version
+   42  pyenv install 3.8.0
+   43  pyenv version
+   44  pyenv versions
+   45  exec $SHELL
+   46  nano ~/.bashrc
+   47  exec $SHELL
+   48  code /home/spookachu/.pyenv/version
+   49  exec $SHELL
+   50  pip install virtualenvwrapper
+   51  exec $SHELL
+   52  mkvirtualenv
+   53  workon --help
+   54  cd ..
+   55  cd C:\Users\spook\Downloads\bash_tutorial-master\bash_tutorial-master\exercises
+   56  C:\Users\spook\Downloads\bash_tutorial-master\bash_tutorial-master\exercises
+   57  cd
+   58  cd ~/C
+   59  cd ~/Downloads
+   60  cd /
+   61  cd ~/Desktop
+   62  ls -lt /var/log/installer
+   63  cd
+   64  ls -lt /var/log/installer
+   65  /var/log/installer
+   66  sudo grep ubiquity /var/log/installer/syslog | less
+   67  open ~/Downloads/bash_tutorial-master
+   68  vim ~/Downloads/bash_tutorial-master
+   69  git clone git@github.com:maxpoulain/bash_tutorial.git
+   70  git clone https://github.com/LeliaE/git_lesson
+   71  ls -a
+   72  rm git_lesson
+   73  rm -fr git_lesson
+   74  git clone https://github.com/LeliaE/git_lesson
+   75  ls
+   76  cd git_lesson
+   77  python display_dialog.py --char1 character1/Ygritte.txt --char2 character2/Jon.txt
+   78  sh replace_in_file character1/Ygritte.txt "You know nothing Jon Snow"
+   79  git commit -m "Committing! Yggrite's line"
+   80  git status
+   81  git commit -m "Committing! Ygritte's line" character1/Ygritte.txt
+   82  git remote -v
+   83  git remote set-url origin git@github.com:LeliaE/git_lesson.git
+   84  git push
+   85  git push master origin
+   86  ssh -T git@github.com
+   87  ls =a
+   88  ls -a
+   89  cd git_lesson
+   90  git push
+   91  ssh-add ~/.ssh/rPsUcwDmOCj5aUwponLcdsaY17684JiGKszWiTDNA9E
+   92  git config --global user.email "lelia.erscoi@cri-paris.org"
+   93  git config --global user.name LeliaE
+   94  git config --global user.name "LeliaE"
+   95  git diff
+   96  # Run this
+   97  python display_dialog.py --char1 character1/Ygritte.txt --char2 character2/Jon.txt
+   98  sh replace_in_file character1/Ygritte.txt "You know nothing Jon Snow"
+   99  git commit -m "Jon Snow"
+  100  git diff
+  101  git push
+  102  ping
+  103  ping 8.8.8.8
+  104  git push
+  105  ssh-add ~/.ssh/rPsUcwDmOCj5aUwponLcdsaY17684JiGKszWiTDNA9E
+  106  ssh-add ~/.ssh/id_ed25519
+  107  eval `ssh-agent -s`
+  108  ssh-add ~/.ssh/id_ed25519
+  109  git push
+  110  ssh -vvv git@github.com
+  111  cd
+  112  $ ssh-keygen -t ed25519 -C "lelia.erscoi@cri-paris.org"
+  113  ssh-keygen -t ed25519 -C "lelia.erscoi@cri-paris.org"
+  114  eval "$(ssh-agent -s)"
+  115  ssh-add ~/.ssh/id_ed25519
+  116  ls -a
+  117  cd ssh
+  118  cd .ssh
+  119  ls -a
+  120  loss id_ed25519.pub
+  121  less id_ed25519.pub
+  122  cd
+  123  ls -a
+  124  cd git_lesson
+  125  git push
+  126  cd
+  127  rm git_lesson
+  128  rm -fr git_lesson
+  129  git clone https://github.com/LeliaE/git_lesson
+  130  git remote -v
+  131  ls -a
+  132  cd git_lesson
+  133  git remote -v
+  134  git remote set-url origin git@github.com:LeliaE/git_lesson.git
+  135  # Run this
+  136  python display_dialog.py --char1 character1/Ygritte.txt --char2 character2/Jon.txt
+  137  sh replace_in_file character1/Ygritte.txt "You know nothing Jon Snow"
+  138  git diff
+  139  git add character1/Ygritte.txt
+  140  git commit -m "yaaay"
+  141  git push
+  142  eval "$(ssh-agent -s)"
+  143  ssh-add ~/.ssh/id_ed25519
+  144  git push
+  145  eval 'ssh-agent -s'
+  146  git push
+  147  cd git_lesson
+  148  git remote show origin
+  149  git status
+  150  history | grep 'git clone'
+  151  git remote set-url origin git@github.com:LeliaE/git_lesson.git
+  152  git push
+  153  cd ..
+  154  git status
+  155  ls
+  156  mv git_lesson/ git_lesson_old/
+  157  git clone git@github.com:LeliaE/git_lesson.git
+  158  cd .ssh/
+  159  ls
+  160  cat id_ed25519.pub
+  161  cd
+  162  git clone git@github.com:LeliaE/git_lesson.git
+  163  ls
+  164  git clone git@github.com:AdvancedGroupBootcamp/LeliaErscoi.git
+  165  cd .ssh/
+  166  ssh-keygen -t ed25519 -C "lelia.erscoi@cri-paris.org"
+  167  cat mykey2.pub
+  168  cd ..
+  169  git clone git@github.com:AdvancedGroupBootcamp/LeliaErscoi.git
+  170  cd .ssh/
+  171  nano config
+  172  pwd
+  173  ls
+  174  nano config
+  175  cd ..
+  176  git clone git@github.com:AdvancedGroupBootcamp/LeliaErscoi.git
+  177  ping github.com
+  178  eval 'ssh-agent -s'
+  179  ssh-add ~/.ssh/mykey2
+  180  eval 'ssh-agent -s'
+  181  ssh-add ~/.ssh/mykey2
+  182  eval $(ssh-agent -s)
+  183  ssh-add ~/.ssh/mykey2
+  184  git clone git@github.com:AdvancedGroupBootcamp/LeliaErscoi.git
+  185  ssh-add -l
+  186  ssh -T git@github.com
+  187  ssh-add -D
+  188  ssh-add ~/.ssh/mykey2
+  189  git clone git@github.com:AdvancedGroupBootcamp/LeliaErscoi.git
+  190  git --version
+  191  ssh -vT git@github.com
+  192  nano ~/.ssh/config
+  193  git clone git@github.com:AdvancedGroupBootcamp/LeliaErscoi.git
+  194  nano ~/.ssh/config
+  195  git clone git@github.com:AdvancedGroupBootcamp/LeliaErscoi.git
+  196  echo "# test" >> README.md
+  197  git init
+  198  git add README.md
+  199  git commit -m "first commit"
+  200  git branch -M main
+  201  git remote add origin git@github.com:LeliaE/test.git
+  202  git push -u origin main
+  203  ls
+  204  rm -r .git
+  205  y
+  206  ls
+  207  rm README.md
+  208  git clone git@github.com:spookachu/git_lesson.git
+  209  git clone https://github.com/spookachu/git_lesson.git
+  210  rm -fr git_lesson
+  211  ls -a
+  212  ssh-keygen -t ed25519 -C "lelia.erscoi@gmail.com"
+  213  eval "$(ssh-agent -s)"
+  214  ssh-add ~/.ssh/id_ed25519
+  215  ls -a
+  216  cd .ssh
+  217  ls -a
+  218  less id_ed25519.pub
+  219  git clone git@github.com:spookachu/git_lesson.git
+  220  cd
+  221  git clone git@github.com:spookachu/git_lesson.git
+  222  git clone ssh://git@github.com/spookachu/git_lesson.git
+  223  git clone https://github.com/spookachu/git_lesson.git
+  224  git remote -v
+  225  ls
+  226  cd git_lesson
+  227  git remote -v
+  228  git remote set-url origin git@github.com:spookachu/git_lesson.git
+  229  python display_dialog.py --char1 character1/Ygritte.txt --char2 character2/Jon.txt
+  230  sh replace_in_file character1/Ygritte.txt "You know nothing jon snow"
+  231  git commit -m "cool"
+  232  git diff
+  233  git push
+  234  cd Downloads/bash_tutorial-master/bash_tutorial-master/exercises/exercise_1/directoryB
+  235  cd Downloads\bash_tutorial-master\bash_tutorial-master\exercises\exercise_1\directoryB
+  236  ls -a
+  237  cd bash_tutorial
+  238  ls
+  239  cd exercises
+  240  ls -a
+  241  cd exercise_1
+  242  cd directoryB
+  243  ls -a
+  244  source program.sh
+  245  cd ..
+  246  cd directoryC
+  247  ls -a
+  248  ls -l text_file.txt
+  249  ls -sh text_file.txt
+  250  ls -sh hidden_file.txt
+  251  ls -sh .hidden_file.txt
+  252  ls -l .hidden_file.txt
+  253  cd ..
+  254  cd exercise_2
+  255  ls -a
+  256  less solution_2.1.txt
+  257  nano new_file
+  258  cd
+  259  cd bash_tutorial/exercises/exercise_3
+  260  mkdir solution
+  261  ls -a
+  262  ls -l solution/*
+  263  cd data
+  264  ls -a
+  265  rm A_X_X_X_Y_X_X
+  266  rm *Y*
+  267  ls -a
+  268  cd ..
+  269  cd exercise_4
+  270  ls -a
+  271  diff ai.txt artificial_intelligence.txt
+  272  less elephant.txt | sort > result.txt
+  273  less result.txt
+  274  grep fire datascience.txt
+  275  cd ..
+  276  cd exercise_5
+  277  ls -a
+  278  unzip wrapped.zip
+  279  sudo apt install unzip
+  280  unzip wrapped.zip
+  281  tar -cf backup.tar wrapped.tar
+  282  ls -a
+  283  cd wrapped.tar
+  284  tar -xf wrapped.tar
+  285  ls -a
+  286  cd solution
+  287  ls -a
+  288  gunzip solution.txt.gz
+  289  ls -a
+  290  less solution.txt
+  291  cd ..
+  292  cd exercise_6
+  293  ls -a
+  294  ls -l
+  295  chmod a+x permissions.sh
+  296  source permissions.sh
+  297  df
+  298  df --help
+  299  df --version
+  300  env
+  301  export GIVEME = SOLUTION
+  302  export GIVEME=SOLUTION
+  303  echo $GIVEME
+  304  echo $GIVEME | wc -c
+  305  ping www.spiced-academy.com
+  306  top
+  307  man ping
+  308  cd ..
+  309  cd exercise_4
+  310  ls -a
+  311  less elephant.txt
+  312  less result.txt
+  313  less elephant.txt | sort
+  314  cd
+  315  git clone https://github.com/LeliaE/LeliaErscoi
+  316  git clone git@github.com:AdvancedGroupBootcamp/LeliaErscoi.git
+  317  git add .
+  318  git add solution.txt
+  319  ls -a
+  320  cd LeliaErscoi
+  321  ls -a
+  322  git add solution.txt
+  323  git add C:\Users\spook\Desktop\solution.txt
+  324  git add C:/Users/spook/Desktop/solution.txt
+  325  git add .
+  326  ls -a
+  327  git remote add origin
+  328  touch bash_solution
+  329  ls -a
+  330  cd bash_solution
+  331  cat > bash_solution
+  332  ls -a
+  333  less bash_solution
+  334  git status
+  335  git commit -m "bash exercises"
+  336  git commit -m "bash" bash_solution
+  337  git remote add origin git@github.com:AdvancedGroupBootcamp/LeliaErscoi.git
+  338  git push -u origin master
+  339  cd
+  340  git clone git@github.com:LeliaE/git_lesson.git
+  341  cd
+  342  ls
+  343  cd git_lesson
+  344  ls
+  345  python display_dialog.py --char1 character1/Ygritte.txt --char2 character2/Jon.txt
+  346  sh replace_in_file character1/Ygritte.txt "You know nothing Jon Snow"
+  347  git commit -m
+  348  git commit -m "commit"
+  349  git commit -m "commit" character1/Ygritte.txt
+  350  git push
+  351  $echp
+  352  git push
+  353  git remote add origin git@github.com:LeliaE/git_lesson.git
+  354  git push -u origin master
+  355  git push
+  356  ssh-add -d ~/.ssh/id_rsa
+  357  ssh -T git@github.com
+  358  git push
+  359  ssh -vT git@github.com
+  360  eval "$(ssh-agent -s)"
+  361  ssh-add -l -E sha256
+  362  ssh-keygen -t ed25519 -C "lelia.erscoi@cri-paris.org"
+  363  eval "$(ssh-agent -s)"
+  364  ssh-add ~/.ssh/id_ed25519
+  365  clip < ~/.ssh/id_ed25519.pub
+  366  ls -a
+  367  less .git
+  368  cd .git
+  369  ls -a
+  370  cd ..
+  371  cd
+  372  ls -a
+  373  less .ssh
+  374  cd .ssh
+  375  ls -a
+  376  less id_ed25519.pub
+  377  cd
+  378  ls
+  379  cd git_lesson
+  380  git push
+  381  git remote add origin git@github.com:LeliaE/git_lesson.git
+  382  ssh git@github.com -v
+  383  -v
+  384  git commit -m "commit" character1/Ygritte.txt
+  385  git push -u origin master
+  386  git remote add origin SHA256:VN/TnhMp2ICCgxQ7fSsRMGEvj66fAVEFjsjXR07y6nw
+  387  cd
+  388  rm git_lesson
+  389  cd
+  390  ls
+  391  ls -a
+  392  cd .ssh
+  393  ls -a
+  394  cd
+  395  cd ~/.ssh
+  396  ls -a
+  397  ssh-keygen -t rsa -C "lelia.erscoi@cri-paris.org"
+  398  ls -a
+  399  cd id_rsa.pub
+  400  less id_rsa.pub
+  401  cd
+  402  git clone git@github.com:LeliaE/git_lesson_new.git
+  403  ls
+  404  cd git_lesson_new
+  405  python display_dialog.py --char1 character1/Ygritte.txt --char2 character2/Jon.txt
+  406  sh replace_in_file character1/Ygritte.txt "You know nothing Jon Snow"
+  407  git commit -m "commit" character1/Ygritte.txt
+  408  git status
+  409  git push
+  410  python display_dialog.py --char1 character1/James.txt --char2 character2/Sylvia.txt
+  411  sh replace_in_file character1/James.txt "I'm Bond.James Bond."
+  412  git commit -m "commit" character1/James.txt
+  413  git status
+  414  git push
+  415  python display_dialog.py --char1 character1/voice_fc.txt --char2 character2/Tyler.txt
+  416  sh replace_in_file character2/Tyler.txt " you DO NOT talk about Fight Club"
+  417  git commit -m "commit" character2/Tyler.txt
+  418  git push
+  419  python display_dialog.py --char1 character1/appollo13.txt --char2 character2/Jim.txt
+  420  sh replace_in_file character2/Jim.txt "Houston, we have a problem"
+  421  git commit -m "commit" character2/Jim.txt
+  422  git push
+  423  python display_dialog.py --char1 character1/Marty.txt --char2 character2/Emmet.txt
+  424  sh replace_in_file character2/Emmet.txt "Roads? Where we're going we don't need roads."
+  425  git commit -m "commit" character2/Emmet.txt
+  426  git push
+  427  python display_dialog.py --char1 character1/DarthVader.txt --char2 character2/Luke.txt
+  428  sh replace_in_file character2/Luke.txt "NOOOOOOOOOOOOOO NOOOOOOOO"
+  429  git commit -m "commit" character2/Luke.txt
+  430  sh replace_in_file character2/Luke.txt "NOOOOO"
+  431  git commit -m "commit" character2/Luke.txt
+  432  git status
+  433  git log --oneline
+  434  git commit -m "commit Star Wars" character2/Luke.txt
+  435  git log --oneline
+  436  git status
+  437  git commit -m "commit Star Wars" character2/Luke.txt
+  438  git diff
+  439  git status
+  440  git reset --soft HEAD~
+  441  ls -a
+  442  cd character2
+  443  ls -a
+  444  less Luke.txt
+  445  git push
+  446  cd ..# Run this
+  447  python display_dialog.py --char1 character1/Forrest.txt --char2 character2/Lady.txt
+  448  cd ..
+  449  # Run this
+  450  python display_dialog.py --char1 character1/Forrest.txt --char2 character2/Lady.txt
+  451  sh replace_in_file character1/Forrest.txt "Life is like a box of chocolate."
+  452  git commit -m "commit Forrest Gump" character1/Forrest.txt
+  453  git push
+  454  git status
+  455  git log --oneline
+  456  git revert 6a21915 --no-edit
+  457  git status
+  458  git revert 6a21915 --no-edit
+  459  git push
+  460  git revert 6a21915 --no-edit
+  461  git log
+  462  git reset --hard ddbf363b35506678d2fc113d47c3c4e30c383ce1
+  463  git push -f
+  464  git branch new_branch
+  465  git checkout new_branch
+  466  sh replace_in_file character1/Forrest.txt "Life is like a box of chocolate."
+  467  git commit -m "commit Forrest Gump" character1/Forrest.txt
+  468  git push
+  469  git push --set-upstream origin new_branch
+  470  git checkout origin
+  471  sh replace_in_file answer/Jack.txt "I'm the king of the world!"
+  472  ls -a
+  473  cd character1
+  474  ls -a
+  475  cd ..
+  476  cd character2
+  477  ls -a
+  478  cd ..
+  479  sh replace_in_file character2/Jack.txt "I'm the king of the world!"
+  480  git commit -m "commit Titanic" character2/Jack.txt
+  481  git push\
+  482  git push
+  483  git checkout master
+  484  sh replace_in_file character2/Jack.txt "I'm the king of the world!"
+  485  git commit -m "commit Titanic" character2/Jack.txt
+  486  git push
+  487  git merge new_branch
+  488  history
